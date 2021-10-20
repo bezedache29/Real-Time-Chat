@@ -12,14 +12,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- This is an example component -->
     <div class="flex flex-col h-screen w-screen bg-white">
-        <div id="chat"  class="flex flex-col mt-2 flex-col-reverse overflow-y-scroll	 space-y-3 mb-20 pb-3 ">
+        <div id="chat"  class="flex flex-col mt-2 flex-col-reverse overflow-y-scroll	 space-y-3 mb-2 pb-3 ">
             
-            <div class="w-max ml-auto break-all mt-2 mb-1 p-2 rounded-br-none bg-blue-500 rounded-2xl text-white text-left mr-5">
-            2/10
+            {{-- <div class="w-max ml-auto break-all mt-2 mb-1 p-2 rounded-br-none bg-blue-500 rounded-2xl text-white text-left mr-5">
+            <p class="italic">Moi</p>
+            <p>2/10</p>
             </div>
             <div class="other break-all mt-2  ml-5 rounded-bl-none float-none bg-gray-300 mr-auto rounded-2xl p-2">
-            Words can't decsribe how ugly you are ;)
-            </div>   
+            <p class="italic">Moi</p>
+            <p>Words can't decsribe how ugly you are ;)</p>
+            </div>    --}}
         </div>
         <div class="flex flex-row  items-center  bottom-0 my-2 w-full">
             <div
@@ -91,7 +93,7 @@
             </div>
             <div class="ml-3 mr-2 flex flex-row border-gray items-center w-1/4 border rounded-3xl h-12 px-2">
 
-                <input type="text" id="nikname" class="border rounded-2xl border-transparent w-full focus:outline-none text-sm h-10 flex items-center" placeholder="Mon pseudo">
+                <input type="text" id="nickname" class="border rounded-2xl border-transparent w-full focus:outline-none text-sm h-10 flex items-center" placeholder="Mon pseudo">
             
             </div>
             <div>
